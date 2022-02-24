@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Header from "./Header/index";
-import NextLevel from "./NextLevel/index";
-import ComoFunciona from "./ComoFunciona/index";
-import Plans from "./Plans/index";
-import Footer from "./Footer/index";
+import Header from "../componets/Header/index";
+import NextLevel from "../componets/NextLevel/index";
+import ComoFunciona from "../componets/ComoFunciona/index";
+import Plans from "../componets/Plans/index";
+import Footer from "../componets/Footer/index";
 
 import { GlobalStyle } from "../styles/global.js";
 
@@ -18,7 +18,6 @@ export default function Home() {
       <NextLevel></NextLevel>
       <ComoFunciona></ComoFunciona>
       <Plans></Plans>
-      <Footer></Footer>
       <GlobalStyle></GlobalStyle>
     </div>
   );
