@@ -36,6 +36,7 @@ export const Content = styled.div`
   @media (max-width: 650px) {
     flex-direction: column;
     padding: 0rem;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -46,6 +47,8 @@ export const Text = styled.div`
   padding: 1rem 2rem;
   @media (max-width: 650px) {
     width: 100%;
+    justify-content: center;
+    align-items: center;
   }
 
   button {
@@ -67,6 +70,4 @@ export const Text = styled.div`
   }
 `;
 
-export const AnimationContainer = styled.div`
-  margin-top: 4rem;
-`;
+export const AnimationContainer = styled.div``;

@@ -37,6 +37,7 @@ export const Text = styled.div`
     color: var(--blue-hard);
     line-height: 2;
   }
+
   h2 {
     font-size: 1.5rem;
     font-weight: 400;
@@ -58,6 +59,14 @@ export const Text = styled.div`
     background: transparent;
     border: 1px solid var(--blue-hard);
     color: var(--blue-hard);
+  }
+
+  @media (max-width: 650px) {
+    padding: 2rem 2rem;
+    text-align: center;
+    h1 {
+      line-height: 1.3;
+    }
   }
 `;
 

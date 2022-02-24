@@ -6,6 +6,9 @@ export const Container = styled.div`
   align-items: center;
   display: flex;
   padding: 0 5rem;
+  @media (max-width: 650px) {
+    padding: 0 1rem;
+  }
   h1,
   p {
     color: var(--text-title);
@@ -32,6 +35,7 @@ export const Content = styled.div`
   padding: 0px 3rem;
   @media (max-width: 650px) {
     flex-direction: column;
+    padding: 0rem;
   }
 `;
 
@@ -40,6 +44,9 @@ export const Text = styled.div`
   flex-direction: column;
   width: 40%;
   padding: 1rem 2rem;
+  @media (max-width: 650px) {
+    width: 100%;
+  }
 
   button {
     width: 200px;

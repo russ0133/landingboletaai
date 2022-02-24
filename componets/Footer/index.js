@@ -21,7 +21,7 @@ export default function Footer() {
           <h2>AQUI VAI UM PEQUENO TEXTO</h2>
         </Text>
         <AnimationContainer>
-          <Lottie options={defaultOptions} height={300} width={500} />
+          <Lottie options={defaultOptions} height={300} width="100%" />
         </AnimationContainer>
       </Content>
     </Container>

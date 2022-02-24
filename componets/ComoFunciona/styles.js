@@ -82,8 +82,9 @@ export const Box = styled.div`
   flex-direction: column;
   align-self: center;
   align-items: center;
-  border: 0.1rem solid #bababa;
-  padding: 3rem 1rem;
+
+  border: 0.2rem dashed #bababa;
+  padding: 3rem 2rem;
   border-radius: 1rem;
   margin-bottom: 10px;
   @media (max-width: 650px) {
@@ -93,13 +94,14 @@ export const Box = styled.div`
     font-weight: 200;
     font-size: 1.1rem;
     line-height: 1.35;
-    color: #bababa;
+    color: var(--text-title);
+    text-align: center;
   }
   h1 {
     color: var(--text-title);
     margin: 10px 0px;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 300;
     line-height: 2.5;
   }
 `;

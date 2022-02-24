@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.ul`
   display: none;
+  margin-top: -15px;
 
   li a {
     color: white;
@@ -12,9 +13,10 @@ export const Container = styled.ul`
     display: inherit;
     position: absolute;
     min-height: 100vh;
-    width: 50%;
+    width: 80%;
     color: white;
     z-index: 55;
+    margin-left: -25px;
 
     .icon {
       position: absolute;
@@ -26,7 +28,7 @@ export const Container = styled.ul`
     }
 
     .hamburguer {
-      top: 50%;
+      top: 100%;
       left: 10%;
       width: 25px;
       height: 4px;
@@ -59,10 +61,10 @@ export const Container = styled.ul`
       display: flex;
       flex-direction: column;
       left: 1%;
-      padding: 45px 0 0;
+      padding: 8rem 2rem;
       flex-wrap: nowrap;
       color: white;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: 600;
     }
 
@@ -72,7 +74,7 @@ export const Container = styled.ul`
     }
 
     .list .listItems li {
-      margin: 2px 8px;
+      margin: 20px 8px;
       cursor: pointer;
     }
 

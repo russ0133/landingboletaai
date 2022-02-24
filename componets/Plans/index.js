@@ -15,7 +15,9 @@ export default function ComoFunciona() {
       <Content>
         <Text>
           <h1>Comece AGORA sua jornada com BoletaAI</h1>
-          <h2>Oferecemos 3 planos com diferentes abordagens</h2>
+          <h2>
+            Oferecemos <strong>3 planos</strong> com diferentes abordagens
+          </h2>
         </Text>
         <ContainerBoxers>
           <Box>

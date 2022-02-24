@@ -10,16 +10,17 @@ export default function MenuMobile() {
 
   return (
     <Container>
-      <h1>asfasfa</h1>
       <div className={active ? "icon iconActive" : "icon"} onClick={ToggleMode}>
         <div className="hamburguer hamburguerIcon"></div>
       </div>
       <div className={active ? "menu menuOpen" : "menu menuClose"}>
         <div className="list">
           <ul className="listItems">
-            <li>teste</li>
-            <li>teste</li>
-            <li>teste</li>
+            <li>Home</li>
+            <li>Sobre Nós</li>
+            <li>Como Funciona</li>
+            <li>Preços</li>
+            <li>Login App</li>
           </ul>
         </div>
       </div>

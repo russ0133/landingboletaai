@@ -7,9 +7,9 @@ export default function Header() {
   return (
     <Container>
       <Content>
+        <MenuMobile></MenuMobile>
         <Top>
-          <MenuMobile></MenuMobile>
-          <Image src="/logo.svg" width={250} height={100} />
+          <Image src="/logo.svg" width={200} height={100} />
 
           <Menu>
             <ul>

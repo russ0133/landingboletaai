@@ -18,6 +18,7 @@ export default function Home() {
       <NextLevel></NextLevel>
       <ComoFunciona></ComoFunciona>
       <Plans></Plans>
+      <Footer></Footer>
       <GlobalStyle></GlobalStyle>
     </div>
   );

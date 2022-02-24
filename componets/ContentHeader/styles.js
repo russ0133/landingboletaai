@@ -40,7 +40,10 @@ export const Text = styled.div`
   width: 50%;
   @media (max-width: 650px) {
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 4rem 0rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   button {

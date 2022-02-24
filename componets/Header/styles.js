@@ -10,6 +10,7 @@ export const Container = styled.div`
   height: 650px;
   @media (max-width: 650px) {
     height: auto;
+    padding: 1rem 2rem;
   }
   align-items: flex-start;
   background: radial-gradient(
@@ -28,9 +29,8 @@ export const Content = styled.div`
 export const Top = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-between;
 `;
 
 export const Menu = styled.div`

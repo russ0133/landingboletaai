@@ -27,9 +27,7 @@ export default function NextLevel() {
           <button>Quero testar</button>
         </Text>
         <AnimationContainer>
-          {
-            //<Lottie options={defaultOptions} height={500} width={500} />//}
-          }
+          <Lottie options={defaultOptions} height="100%" width="100%" />
         </AnimationContainer>
       </Content>
     </Container>
